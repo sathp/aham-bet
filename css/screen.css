@@ -1548,7 +1548,7 @@ a:hover, a:active, a:focus {
 }
 
 blockquote {
-  border-left: 0.1875rem solid #1ad2a8;
+  border-left: 0.1875rem solid #E64A19;
   padding: 0.275rem 1.5625rem 0.3125rem;
   letter-spacing: 0.1em;
   margin: 0 0 1.5rem;
@@ -1833,7 +1833,7 @@ button:focus {
   -moz-transition: all 150ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
   transition: all 150ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
   display: inline-block;
-  background: #1ad2a8;
+  background: #E64A19;
   border-radius: 50%;
   position: absolute;
   height: 0.5rem;
@@ -1883,7 +1883,7 @@ button:focus {
 }
 .register-form .submit-button {
   letter-spacing: 0.06em;
-  background: #1ad2a8;
+  background: #E64A19;
   border-radius: 1.5625rem;
   font-size: 0.9375rem;
   line-height: 3.125rem;
@@ -1934,7 +1934,7 @@ button:focus {
   display: inline-block;
   text-transform: uppercase;
   border-radius: 1.5625rem;
-  background: #1ad2a8;
+  background: #E64A19;
   letter-spacing: 0.3em;
   padding: 0 1.875rem;
   height: 2.8125rem;
@@ -1984,7 +1984,7 @@ button:focus {
   border-radius: 1.875rem;
   letter-spacing: 0.02em;
   padding: 0 1.5625rem;
-  background: #1ad2a8;
+  background: #E64A19;
   font-size: 0.9375rem;
   font-weight: 700;
   height: 3.125rem;
@@ -2042,7 +2042,7 @@ button:focus {
   text-transform: none;
   margin-left: 0.875rem;
   font-weight: 700;
-  color: #1ad2a8;
+  color: #E64A19;
 }
 .comments-list .comment .comment-body .message {
   margin: 0;
@@ -2108,10 +2108,10 @@ button:focus {
     color: inherit;
   }
   .main-header .main-nav ul li a:hover {
-    color: #1ad2a8;
+    color: #E64A19;
   }
   .main-header .main-nav ul li.high-lighted a {
-    color: #1ad2a8;
+    color: #E64A19;
   }
   .main-header .main-nav ul li:not(:last-of-type) {
     margin-right: 3.125rem;
@@ -2120,7 +2120,7 @@ button:focus {
     -webkit-transition: all 285ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
     -moz-transition: all 285ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
     transition: all 285ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
-    border-top: 0.125rem solid #1ad2a8;
+    border-top: 0.125rem solid #E64A19;
     -webkit-transform-origin: 0 0;
     -moz-transform-origin: 0 0;
     -ms-transform-origin: 0 0;
@@ -2155,7 +2155,7 @@ button:focus {
     color: #b9b9b9 !important;
   }
   .main-header .main-nav ul li ul li a:hover {
-    color: #1ad2a8 !important;
+    color: #E64A19 !important;
   }
   .main-header .main-nav ul li.menu-item-has-children > a:first-of-type {
     position: relative;
@@ -2170,7 +2170,7 @@ button:focus {
     line-height: 1em;
     font-family: icomoon;
     font-size: 0.5rem;
-    color: #1ad2a8;
+    color: #E64A19;
     top: 100%;
     left: 50%;
     -webkit-transform: translate(-50%, 0.45rem);
@@ -2189,7 +2189,7 @@ button:focus {
     transition: all 400ms;
     position: absolute;
     display: inline-block;
-    background: #00cd9e;
+    background: #FF5722;
     height: 0.1875rem;
     width: 2.625rem;
     left: 0;
@@ -2201,13 +2201,13 @@ button:focus {
   justify-content: center;
   flex-direction: column;
   letter-spacing: 0.06em;
-  background: #1ad2a8;
+  background: #E64A19;
   padding: 0 5rem;
   font-weight: 700;
   color: white;
 }
 .main-header .top-tickets:hover {
-  background: #16b08d;
+  background: #FF5722;
 }
 .main-header .mobile-nav-toggle {
   display: inline-block;
@@ -2235,7 +2235,7 @@ button:focus {
   -webkit-transform: scaleX(1.1);
   -ms-transform: scaleX(1.1);
   transform: scaleX(1.1);
-  background: #1ad2a8;
+  background: #E64A19;
 }
 .main-header .mobile-nav-toggle:hover .line:nth-of-type(1) {
   -webkit-transform: scaleX(1.1) translateY(-0.125rem);
@@ -2302,7 +2302,7 @@ button:focus {
     -ms-transform: translateY(-100%);
     transform: translateY(-100%);
     text-align: center;
-    background: #1ad2a8;
+    background: #E64A19;
     position: absolute;
     padding: 1.65rem 0;
     display: block;
@@ -2426,7 +2426,7 @@ button:focus {
   position: relative;
   line-height: 1em;
   font-size: 0;
-  border-top: 1.25rem solid #1ad2a8;
+  border-top: 1.25rem solid #E64A19;
 }
 .main-footer .instagram-widget-box .box-caption {
   -webkit-transition: all 545ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
@@ -2545,7 +2545,7 @@ button:focus {
     content: "";
     position: absolute;
     display: inline-block;
-    background: #1ad2a8;
+    background: #E64A19;
     bottom: -300%;
     left: -500%;
     top: -300%;
@@ -2580,7 +2580,7 @@ button:focus {
   }
   .main-footer .main-footer-area .subscribe-form-title:before {
     display: inline-block;
-    background: #1ad2a8;
+    background: #E64A19;
     position: absolute;
     -webkit-transform: translateX(-30%);
     -ms-transform: translateX(-30%);
@@ -2621,7 +2621,7 @@ button:focus {
   color: #9eaeaf;
 }
 .main-footer .main-footer-area .social-block li a i:hover {
-  color: #1ad2a8;
+  color: #E64A19;
 }
 .main-footer .main-footer-area .social-block li:not(:last-of-type) {
   margin-right: 3rem;
@@ -2635,7 +2635,7 @@ button:focus {
   margin: 0;
 }
 .main-footer .main-footer-area .copyrigts a:hover {
-  color: #1ad2a8;
+  color: #E64A19;
 }
 
 /* ----------------- 9.3. Sections ----------------- */
@@ -2956,7 +2956,7 @@ button:focus {
   border-radius: 0.9375rem;
   vertical-align: middle;
   display: inline-block;
-  background: #1ad2a8;
+  background: #E64A19;
   line-height: 1.325rem;
   padding: 0 0.625rem;
   height: 1.25rem;
@@ -3076,7 +3076,7 @@ button:focus {
   border-radius: 1.5625rem;
   line-height: 3.125rem;
   display: inline-block;
-  background: #1ad2a8;
+  background: #E64A19;
   letter-spacing: 0.2em;
   padding: 0 1.5625rem;
   min-width: 10.625rem;
@@ -3192,7 +3192,7 @@ button:focus {
   font-size: 0.9375rem;
   font-style: italic;
   font-weight: 700;
-  color: #1ad2a8;
+  color: #E64A19;
 }
 .single-post-meta .meta-list li.author-meta a:hover {
   color: #14a584;
@@ -3214,7 +3214,7 @@ button:focus {
   color: #9eaeaf;
 }
 .single-post-meta .meta-list .share-block li a:hover {
-  color: #1ad2a8;
+  color: #E64A19;
 }
 @media (max-width: 700px) {
   .single-post-meta .meta-list {
@@ -3307,7 +3307,7 @@ button:focus {
   color: #8a9da9;
 }
 .about-box .text-box h3 span {
-  color: #00cd9e;
+  color: #FF5722;
 }
 .about-box .text-box p {
   color: #8a9da9;
@@ -3377,7 +3377,7 @@ button:focus {
   -moz-transition: all 275ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
   transition: all 275ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
   display: inline-block;
-  background: #1ad2a8;
+  background: #E64A19;
   line-height: 4.375rem;
   font-size: 1.875rem;
   position: relative;
@@ -3391,7 +3391,7 @@ button:focus {
   -webkit-transition: all 275ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
   -moz-transition: all 275ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
   transition: all 275ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  border-color: transparent #1ad2a8 transparent transparent;
+  border-color: transparent #E64A19 transparent transparent;
   border-width: 2.1875rem 3.125rem 2.1875rem 0;
   display: inline-block;
   border-style: solid;
@@ -3467,7 +3467,7 @@ button:focus {
 }
 .video-wrapper .video-container .video-close-bar .close-btn:before, .video-wrapper .video-container .video-close-bar .close-btn:after {
   content: "";
-  background: #1ad2a8;
+  background: #E64A19;
   position: relative;
   display: block;
   width: 1.5625rem;
@@ -3566,7 +3566,7 @@ button:focus {
   font-size: 2.875rem;
   font-weight: 900;
   line-height: 1em;
-  color: #1ad2a8;
+  color: #E64A19;
   display: block;
 }
 @media (max-width: 768px) {
@@ -3657,7 +3657,7 @@ button:focus {
   letter-spacing: 0.1em;
   font-weight: 700;
   line-height: 1em;
-  color: #00cd9e;
+  color: #FF5722;
   font-size: 1rem;
   margin: 0;
 }
@@ -3736,8 +3736,8 @@ button:focus {
   -webkit-transition: all 150ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
   -moz-transition: all 150ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
   transition: all 150ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  -webkit-box-shadow: 0 0 0 0.9375rem #1ad2a8;
-  box-shadow: 0 0 0 0.9375rem #1ad2a8;
+  -webkit-box-shadow: 0 0 0 0.9375rem #E64A19;
+  box-shadow: 0 0 0 0.9375rem #E64A19;
   -webkit-transform: scale(0.875);
   -ms-transform: scale(0.875);
   transform: scale(0.875);
@@ -3753,8 +3753,8 @@ button:focus {
 }
 @media (max-width: 768px) {
   .speakers-tabs .tabed-content .tabs-header ul li:before {
-    -webkit-box-shadow: 0 0 0 0.5rem #1ad2a8;
-    box-shadow: 0 0 0 0.5rem #1ad2a8;
+    -webkit-box-shadow: 0 0 0 0.5rem #E64A19;
+    box-shadow: 0 0 0 0.5rem #E64A19;
   }
 }
 .speakers-tabs .tabed-content .tabs-header ul li .speaker-box {
@@ -3889,7 +3889,7 @@ button:focus {
   border-radius: 1.5625rem;
   line-height: 2.8125rem;
   letter-spacing: 0.3em;
-  background: #00cd9e;
+  background: #FF5722;
   padding: 0 1.875rem;
   height: 2.8125rem;
   font-size: 0.75rem;
@@ -3919,10 +3919,10 @@ button:focus {
 .section-sponsors .sponsor-contact a {
   border-bottom: 0.125rem solid transparent;
   font-weight: 700;
-  color: #1ad2a8;
+  color: #E64A19;
 }
 .section-sponsors .sponsor-contact a:hover {
-  border-color: #1ad2a8;
+  border-color: #E64A19;
 }
 
 .sponsor-block {
@@ -4127,7 +4127,7 @@ button:focus {
   margin: 0;
 }
 #contact-popup p a:hover {
-  color: #1ad2a8;
+  color: #E64A19;
 }
 #contact-popup ul li {
   display: block;
@@ -4167,7 +4167,7 @@ button:focus {
   display: block;
   width: 16.5625rem;
   background: #f8fffd;
-  border-right: 0.3125rem solid #1ad2a8;
+  border-right: 0.3125rem solid #E64A19;
 }
 #contact-popup .popup-wrapper:before {
   content: "";
@@ -4233,7 +4233,7 @@ button:focus {
   min-width: 11.875rem;
 }
 .intro-box .btn.filled {
-  background: #00cd9e;
+  background: #FF5722;
 }
 .intro-box .btn.filled:hover {
   background: #00dcaa;
@@ -4243,8 +4243,8 @@ button:focus {
   line-height: 2.875rem;
 }
 .intro-box .btn.outline:hover {
-  background: #00cd9e;
-  border-color: #00cd9e;
+  background: #FF5722;
+  border-color: #FF5722;
 }
 @media (max-width: 768px) {
   .intro-box {
@@ -4271,7 +4271,7 @@ button:focus {
   letter-spacing: 0.04em;
   font-size: 6.5rem;
   font-weight: 300;
-  color: #00cd9e;
+  color: #FF5722;
   line-height: 0.825em;
   margin-bottom: 1.5rem;
 }
@@ -4647,7 +4647,7 @@ button:focus {
   margin: 0;
 }
 .event-info .event-date:after {
-  background: #00cd9e;
+  background: #FF5722;
   margin: 1.125rem 0 0;
   height: 0.3125rem;
   display: block;
@@ -4785,7 +4785,7 @@ button:focus {
   line-height: 1.35em;
   letter-spacing: 0.1em;
   font-size: 0.875rem;
-  color: #1ad2a8;
+  color: #E64A19;
 }
 .main-sidebar .widget:not(.widget_instagram):not(.widget_twitter):not(.widget_rss) ul li a:hover {
   color: #16ae8b;
@@ -4814,7 +4814,7 @@ button:focus {
 .twitter-feed-block .twitter-feed-slider .twitter-feed-icon i {
   font-size: 3.4375rem;
   line-height: 0.75em;
-  color: #00cd9e;
+  color: #FF5722;
 }
 .twitter-feed-block .twitter-feed-slider .tweet {
   letter-spacing: 0.08em;
@@ -4825,7 +4825,7 @@ button:focus {
   color: white;
 }
 .twitter-feed-block .twitter-feed-slider .tweet a {
-  color: #00cd9e;
+  color: #FF5722;
 }
 .twitter-feed-block .twitter-feed-slider .tweet a:hover {
   color: #0effc8;
@@ -4836,7 +4836,7 @@ button:focus {
   font-size: 0.6875rem;
   font-weight: 700;
   line-height: 1em;
-  color: #00cd9e;
+  color: #FF5722;
 }
 .twitter-feed-block .twitter-feed-slider .slick-dots {
   list-style-type: none;
@@ -4893,15 +4893,15 @@ button:focus {
   top: 0;
 }
 .twitter-feed-block .twitter-feed-slider .slick-dots li.slick-active button:before {
-  background: #00cd9e;
+  background: #FF5722;
   height: 0.4375rem;
   width: 0.4375rem;
   left: 0.25rem;
   top: 0.25rem;
 }
 .twitter-feed-block .twitter-feed-slider .slick-dots li.slick-active button:after {
-  -webkit-box-shadow: 0 0 0 1px #00cd9e;
-  box-shadow: 0 0 0 1px #00cd9e;
+  -webkit-box-shadow: 0 0 0 1px #FF5722;
+  box-shadow: 0 0 0 1px #FF5722;
   opacity: 1;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
@@ -5150,7 +5150,7 @@ button:focus {
   -o-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
   will-change: width, height;
-  background: #1ad2a8;
+  background: #E64A19;
   border-radius: 50%;
   position: absolute;
   z-index: 1;
@@ -5418,14 +5418,14 @@ ul.page-numbers li .page-numbers {
 }
 ul.page-numbers li .page-numbers.prev, ul.page-numbers li .page-numbers.next {
   line-height: 1.7rem;
-  background: #1ad2a8;
+  background: #E64A19;
   font-size: 0.85rem;
   height: 1.5625rem;
   width: 1.5625rem;
   color: white;
 }
 ul.page-numbers li .page-numbers:not(.prev):not(.next) {
-  background: #1ad2a8;
+  background: #E64A19;
   line-height: 2.4rem;
   font-size: 0.875rem;
   font-weight: 700;
