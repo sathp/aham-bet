@@ -23,7 +23,7 @@
 /* */
 /* ----------------- 1. Reset ----------------- */
 html {
-  font-family: sans-serif;
+  font-family: "Raleway";
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -1480,7 +1480,7 @@ hr {
 
 body {
   font-size: 1rem;
-  font-family: "Lato", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
   line-height: 1.6;
   color: #888888;
@@ -1492,7 +1492,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Averia Serif Libre", cursive;
+  font-family: "Montserrat", cursive;
   margin: 0 0 0.75em;
   font-weight: 500;
   line-height: 1.3;
@@ -1895,7 +1895,7 @@ button:focus {
   border: 0;
 }
 .register-form .submit-button:hover {
-  background: #17bb96;
+  background: #FF5722;
 }
 .register-form .submit-button:active {
   position: relative;
@@ -1945,7 +1945,7 @@ button:focus {
   border: 0;
 }
 .subscribe-form .submit-btn:hover {
-  background: #17bb96;
+  background: #FF5722;
 }
 
 /* ----- Respond Area ----- */
@@ -1997,7 +1997,7 @@ button:focus {
   }
 }
 .respond-form .submit-btn:hover {
-  background: #22e4b7;
+  background: #e64a19;
 }
 
 /* ----- Comments Area ----- */
@@ -2078,6 +2078,10 @@ button:focus {
   -webkit-align-items: stretch;
   align-items: stretch;
   justify-content: flex-end;
+}
+.main-header h4{
+  padding: 0;
+  margin: 0;
 }
 .main-header .home-url {
   -webkit-align-self: center;
@@ -2651,7 +2655,7 @@ button:focus {
   color: #8a9da9;
 }
 .section-header .section-header-delimiter {
-  color: #33d7b1;
+  color: #e64a19;
   border: 0.115rem dashed currentColor;
   margin: 1.4rem auto 0;
   position: relative;
@@ -2719,7 +2723,7 @@ button:focus {
   content: "";
   display: block;
   z-index: -1;
-  background: #1ac39c;
+  background: #e64a19;
   position: absolute;
   height: 33.75rem;
   top: 0;
@@ -3022,7 +3026,7 @@ button:focus {
   color: #6f7775;
 }
 .blog-post-box .blog-post-body .inner-content .post-title a:hover {
-  color: #009a77;
+  color: #FF5722;
 }
 .blog-post-box .blog-post-body .inner-content .date {
   letter-spacing: 0.04em;
@@ -3088,7 +3092,7 @@ button:focus {
   opacity: 0;
 }
 .blog-post-item .hover-box .btn:hover {
-  background: #39e6bf;
+  background: #e64a19;
 }
 .blog-post-item .blog-item-title {
   font-family: "Lato", sans-serif;
@@ -3195,7 +3199,7 @@ button:focus {
   color: #E64A19;
 }
 .single-post-meta .meta-list li.author-meta a:hover {
-  color: #14a584;
+  color: #FF5722;
 }
 .single-post-meta .meta-list .share-block {
   display: inline-block;
@@ -3420,10 +3424,10 @@ button:focus {
   }
 }
 .video-wrapper .video-toggle .video-btn-toggle .btn-holder:hover {
-  background: #13997b;
+  background: #FF5722;
 }
 .video-wrapper .video-toggle .video-btn-toggle .btn-holder:hover:before, .video-wrapper .video-toggle .video-btn-toggle .btn-holder:hover:after {
-  border-color: transparent #13997b transparent transparent;
+  border-color: transparent #FF5722 transparent transparent;
 }
 .video-wrapper .video-container {
   -webkit-transition: all 750ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
@@ -3652,7 +3656,7 @@ button:focus {
   margin-right: 1.125rem;
 }
 .speakers-tabs .tabed-content .tabs-body .event-meta .speaker-info .name {
-  font-family: "Averia Serif Libre", cursive;
+  font-family: "Montserrat", cursive;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: 700;
@@ -3822,7 +3826,7 @@ button:focus {
 /* ----- Pricing Tables ----- */
 @media (min-width: 992px) {
   .pricing-table-wrapper:not(:last-of-type) {
-    border-right: 1px solid #14c39e;
+    border-right: 1px solid #FF5722;
   }
 }
 
@@ -3833,7 +3837,7 @@ button:focus {
   color: white;
 }
 .pricing-table .table-header {
-  border-bottom: 1px solid #14c39e;
+  border-bottom: 1px solid #FF5722;
   justify-content: space-between;
   display: flex;
   padding: 0 1.25rem 1.45rem;
@@ -3897,7 +3901,7 @@ button:focus {
   color: white;
 }
 .pricing-table .buy-btn:hover {
-  background: #00e4b0;
+  background: #e64a19;
 }
 @media (max-width: 768px) {
   .pricing-table {
@@ -3986,7 +3990,7 @@ button:focus {
   -webkit-transition: all 265ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
   -moz-transition: all 265ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
   transition: all 265ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  background: rgba(78, 211, 184, 0.825);
+  background: rgba(230, 74, 25, 0.825);
   border: 0.125rem dashed white;
   display: inline-block;
   position: absolute;
@@ -4144,7 +4148,7 @@ button:focus {
   border-right: 1px solid #eaebeb;
   margin-right: 1.25rem;
   font-size: 1rem;
-  color: #09dbab;
+  color: #e64a19;
 }
 #contact-popup ul li:not(:last-of-type) {
   border-bottom: 1px solid #eaebeb;
@@ -4236,7 +4240,7 @@ button:focus {
   background: #FF5722;
 }
 .intro-box .btn.filled:hover {
-  background: #00dcaa;
+  background: #e64a19;
 }
 .intro-box .btn.outline {
   border: 0.125rem solid white;
@@ -4257,6 +4261,10 @@ button:focus {
   background: rgba(0, 0, 0, 0.3);
   margin: 2.625rem 0 3.4rem;
   padding: 2.8rem 0;
+  font: "Lato";
+}
+#font-countdown{
+  font-family: "Lato";
 }
 .countdown-box .countdown-timmer {
   -webkit-justify-content: space-between;
@@ -4638,10 +4646,9 @@ button:focus {
   }
 }
 .event-info .event-date {
-  font-family: "Averia Serif Libre", cursive;
+  font-family: "Montserrat", cursive;
   letter-spacing: 0.04em;
   font-size: 1.625rem;
-  font-style: italic;
   line-height: 1em;
   color: white;
   margin: 0;
@@ -4680,7 +4687,7 @@ button:focus {
   color: #b2b2b2;
 }
 .main-sidebar .widget .widget-title .title-delimiter {
-  color: #33d7b1;
+  color: #e64a19;
   border: 0.115rem dashed currentColor;
   position: relative;
   border-radius: 50%;
@@ -4788,7 +4795,7 @@ button:focus {
   color: #E64A19;
 }
 .main-sidebar .widget:not(.widget_instagram):not(.widget_twitter):not(.widget_rss) ul li a:hover {
-  color: #16ae8b;
+  color: #FF5722;
 }
 @media (max-width: 992px) {
   .main-sidebar {
@@ -4828,7 +4835,7 @@ button:focus {
   color: #FF5722;
 }
 .twitter-feed-block .twitter-feed-slider .tweet a:hover {
-  color: #0effc8;
+  color: #e64a19;
 }
 .twitter-feed-block .twitter-feed-slider .date {
   text-transform: uppercase;
@@ -5172,7 +5179,7 @@ button:focus {
   top: 50%;
 }
 .page-popup .popup-inner-content .content-top-bar {
-  background: #17bb97;
+  background: #e64a19;
   margin-bottom: 5rem;
   position: relative;
   -webkit-transition: all 400ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
@@ -5195,7 +5202,7 @@ button:focus {
   bottom: 0;
   z-index: 1;
   position: absolute;
-  background: #17b390;
+  background: #FF5722;
 }
 .page-popup .popup-inner-content .content-top-bar .top-bar-content {
   position: relative;
@@ -5230,7 +5237,7 @@ button:focus {
   vertical-align: middle;
   font-size: 1.375rem;
   color: white;
-  background: #17bb97;
+  background: #e64a19;
   border: 0.3rem solid rgba(26, 210, 168, 0.95);
   left: 50%;
   top: 0;
@@ -5256,7 +5263,7 @@ button:focus {
   content: "";
   display: inline-block;
   position: absolute;
-  background: #29e3b9;
+  background: #e64a19;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -5282,7 +5289,7 @@ button:focus {
 .page-popup .popup-inner-content .register-form:before {
   -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.05);
-  background: #17bb97;
+  background: #e64a19;
   opacity: 1;
 }
 .page-popup .popup-inner-content .register-form .submit-button {
@@ -5290,7 +5297,7 @@ button:focus {
   min-width: 16rem;
 }
 .page-popup .popup-inner-content .register-form .submit-button:hover {
-  background: #22e4b7;
+  background: #e64a19;
 }
 .page-popup .popup-inner-content .register-form .input-line .placeholder {
   color: white;
@@ -5434,7 +5441,7 @@ ul.page-numbers li .page-numbers:not(.prev):not(.next) {
   color: white;
 }
 ul.page-numbers li a:hover {
-  background: #17bb96 !important;
+  background: #FF5722 !important;
 }
 ul.page-numbers li:not(:last-of-type) {
   margin-right: 1.25rem;
