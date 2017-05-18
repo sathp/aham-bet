@@ -2070,7 +2070,7 @@ button:focus {
   position: fixed;
   background: #f3f3f3;
   padding-left: 6.5rem;
-  z-index: 9;
+  z-index: 100;
   right: 0;
   left: 0;
   top: 0;
