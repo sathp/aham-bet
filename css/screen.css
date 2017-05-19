@@ -1483,7 +1483,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   line-height: 1.6;
-  color: #888888;
+  color: white;
 }
 
 h1,
@@ -4085,7 +4085,8 @@ button:focus {
   letter-spacing: 0.06em;
   line-height: 1.325em;
   font-size: 1.125rem;
-  color: white;
+  color: #006696;
+  font-weight: bold;
   margin: 0 0 1.25rem;
 }
 .program-box .description {
