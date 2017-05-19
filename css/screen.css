@@ -3874,6 +3874,9 @@ button:focus {
   margin: 0 0 2.25rem;
   line-height: 1em;
 }
+.pricing-table .table-body ul{
+  font-weight: bolder;
+}
 .pricing-table .table-body .table-description li {
   letter-spacing: 0.1em;
   line-height: 1.25em;
