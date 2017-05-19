@@ -4085,7 +4085,8 @@ button:focus {
   letter-spacing: 0.06em;
   line-height: 1.325em;
   font-size: 1.125rem;
-  color: white;
+  color: #006696;
+  font-weight: bold;
   margin: 0 0 1.25rem;
 }
 .program-box .description {
@@ -5453,4 +5454,9 @@ ul.page-numbers li:not(:last-of-type) {
 }
 .tabed-content .tab-item.current {
   display: block;
+}
+
+/** ---- Custom Styles --- */
+#md-shadow{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
