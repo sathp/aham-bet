@@ -1800,6 +1800,19 @@ button:focus {
     width: 100%;
 }
 
+.register-form #input-box .form-input{
+    height: 1em;
+    resize: none;
+}
+
+.register-form #input-box .form-input:focus {
+    height: 10em;
+}
+
+.register-form #input-box .placeholder {
+    top: -10px;
+}
+
 .register-form .input-line .placeholder {
     -webkit-transition: all 0.225s cubic-bezier(0.455, 0.03, 0.515, 0.955);
     -moz-transition: all 0.225s cubic-bezier(0.455, 0.03, 0.515, 0.955);

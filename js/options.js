@@ -617,3 +617,17 @@
 		}, 300);
 	});
 }(jQuery));
+
+$(document).ready(function() {
+	// Event if a textarea in the registration is focused
+	$(".register-form #input-box .form-input").focusout(function(e) {
+		var textarea = $(e.target);
+		if(textarea.val().trim() === "") {
+			textarea.height("10px");
+			console.log(1);
+		} else {
+			textarea.height("10em");
+			console.log(2);
+		}
+	});
+})
