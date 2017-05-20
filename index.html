@@ -1,1133 +1,968 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <title>Techpreneurship Bootcamp - Aham Learning</title>
     <meta name="description" content="Events HTML5 Template" />
     <meta name="author" content="TeslaThemes" />
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
-
     <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
     <!-- Style CSS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CLato:300,400,700,900,400italic,700italic" />
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="css/vendors/icomoon.css" />
     <link rel="stylesheet" href="css/screen.css" />
-  </head>
-  <body id="page" data-smooth-scroll="on">
+</head>
+
+<body id="page" data-smooth-scroll="on">
     <!-- Page Content -->
     <div class="page-wrapper">
-      
-      <!-- Buy Tickets Popup -->
-      <div class="page-popup">
-        <span class="close-popup-btn"></span>
-        <span class="popup-overlay"></span>
-
-        <div class="popup-inner-content">
-          <div class="content-top-bar">
-            <div class="container">
-              <div class="top-bar-content">
-                <div class="inner-bar left">
-                  <i class="icon icon-check2"></i>
-                  <h5 class="title"><span>BASIC INFORMATION</span></h5>
-                </div>
-
-                <div class="inner-bar right">
-                  <i class="icon icon-credit-card"></i>
-                  <h5 class="title"><span>APPLICATION QUESTIONS</span></h5>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="container">
-            <div class="row">
-              <div class="col-md-10 col-md-offset-1">
-                <form class="register-form">
-
-                  <div class="row custom-row">
-                    <div class="col-md-6">
-                      <div class="input-line">
-                        <input type="text" class="form-input check-value" placeholder=""  required />
-                        <span class="placeholder">Full Name</span>
-                        <span class="bottom-line"></span>
-                      </div>
-
-                      <div class="input-line">
-                        <input type="number" class="form-input check-value" placeholder="" required />
-                        <span class="placeholder">Your Age</span>
-                        <span class="bottom-line"></span>
-                      </div>
-
-                      <div class="input-line">
-                        <input type="text" class="form-input check-value" placeholder="" required />
-                        <span class="placeholder">Your School</span>
-                        <span class="bottom-line"></span>
-                      </div>
-
-                      <div class="input-line">
-                        <input type="email" class="form-input check-value" placeholder="" required />
-                        <span class="placeholder">Your E-mail Address</span>
-                        <span class="bottom-line"></span>
-                      </div>
-                      
-                      <div class="input-line">
-                        <input type="tel" class="form-input check-value" placeholder="" required />
-                        <span class="placeholder">Your Phone Number</span>
-                        <span class="bottom-line"></span>
-                      </div>
-
-                      <div class="input-line">
-                        <input type="tel" class="form-input check-value" placeholder="" required />
-                        <span class="placeholder">Your Mailing Address</span>
-                        <span class="bottom-line"></span>
-                      </div>
-
+        <!-- Buy Tickets Popup -->
+        <div class="page-popup">
+            <span class="close-popup-btn"></span>
+            <span class="popup-overlay"></span>
+            <div class="popup-inner-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <form class="register-form">
+                                <div class="row custom-row">
+                                    <div class="col-md-6">
+                                        <div class="input-line">
+                                            <h5 class="title"><span>BASIC INFORMATION</span></h5>
+                                            <input type="text" class="form-input check-value" placeholder="" required />
+                                            <span class="placeholder">Full Name</span>
+                                            <span class="bottom-line"></span>
+                                        </div>
+                                        <div class="input-line">
+                                            <input type="number" class="form-input check-value" placeholder="" required />
+                                            <span class="placeholder">Your Age</span>
+                                            <span class="bottom-line"></span>
+                                        </div>
+                                        <div class="input-line">
+                                            <input type="text" class="form-input check-value" placeholder="" required />
+                                            <span class="placeholder">Your School</span>
+                                            <span class="bottom-line"></span>
+                                        </div>
+                                        <div class="input-line">
+                                            <input type="email" class="form-input check-value" placeholder="" required />
+                                            <span class="placeholder">Your E-mail Address</span>
+                                            <span class="bottom-line"></span>
+                                        </div>
+                                        <div class="input-line">
+                                            <input type="tel" class="form-input check-value" placeholder="" required />
+                                            <span class="placeholder">Your Phone Number</span>
+                                            <span class="bottom-line"></span>
+                                        </div>
+                                        <div class="input-line">
+                                            <input type="tel" class="form-input check-value" placeholder="" required />
+                                            <span class="placeholder">Your Mailing Address</span>
+                                            <span class="bottom-line"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="title"><span>APPLICATION QUESTIONS</span></h5>
+                                        <div class="input-line" id="input-box">
+                                            <input type="textarea" class="form-input check-value" placeholder="" required />
+                                            <span class="placeholder">Full Name</span>
+                                            <span class="bottom-line"></span>
+                                        </div>
+                                        <div class="input-line">
+                                            <input type="number" class="form-input check-value" placeholder="" required />
+                                            <span class="placeholder">Your Age</span>
+                                            <span class="bottom-line"></span>
+                                        </div>
+                                        <div class="input-line">
+                                            <input type="text" class="form-input check-value" placeholder="" required />
+                                            <span class="placeholder">Your School</span>
+                                            <span class="bottom-line"></span>
+                                        </div>
+                                        <div class="input-line">
+                                            <input type="email" class="form-input check-value" placeholder="" required />
+                                            <span class="placeholder">Your E-mail Address</span>
+                                            <span class="bottom-line"></span>
+                                        </div>
+                                        <div class="input-line">
+                                            <input type="tel" class="form-input check-value" placeholder="" required />
+                                            <span class="placeholder">Your Phone Number</span>
+                                            <span class="bottom-line"></span>
+                                        </div>
+                                        <div class="input-line">
+                                            <input type="tel" class="form-input check-value" placeholder="" required />
+                                            <span class="placeholder">Your Mailing Address</span>
+                                            <span class="bottom-line"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-wrapper align-center">
+                                    <button class="submit-button btn">Submit Your Application</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-
-                    <div class="col-md-6">
-                      <div class="input-line">
-                        <input type="textarea" row="4" class="form-input check-value" placeholder="" required />
-                        <span class="placeholder">
-                          Do you
-                          have any previous experience
-                          attending MUNs, Leadership
-                          Conferences or Entrepreneurship
-                          Programs? Talk about your
-                          favourite experience.
-			</span>
-                        <span class="bottom-line"></span>
-                      </div>
-                      <div class="col-md-12">
-                        <span class="placeholder">
-                          Registering does not mean you are enrolled! We will get back to you regarding your enrollment to the bootcamp via your registered email.
-                          Payment details and confirmation will be done at that point of time.
-                        </span>
-                      </div>
-                      
-                      
-                      
-                      
-                      
-                      
-
-                      
-
-                      
-                    </div>
-                  </div>
-
-                  <div class="btn-wrapper align-center">
-                    <button class="submit-button btn">Submit Your Application</button>
-                  </div>
-                </form>   
-              </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-
-      <!-- Main Header -->
-      <header class="main-header" id="md-shadow">
-        <a href="index.html" class="home-url">
-          <!--  <img src="img/logo.png" alt="site logo" /> -->
-          <h4>TECHPRENEURSHIP BOOTCAMP</h4>
-        </a>
-
-        <span style="text-align: right;" class="mobile-nav-toggle">
+        <!-- Main Header -->
+        <header class="main-header" id="md-shadow">
+            <a href="index.html" class="home-url">
+                <!--  <img src="img/logo.png" alt="site logo" /> -->
+                <h4>TECHPRENEURSHIP BOOTCAMP</h4>
+            </a>
+            <span style="text-align: right;" class="mobile-nav-toggle">
           <i class="line"></i>
           <i class="line"></i>
           <i class="line"></i>
         </span>
-
-	<!--Navigation-->
-        <nav class="main-nav">
-          <span class="active-indicator"></span>
-          <ul class="clean-list">
-            <li class="active menu-item-has-children">
-              <a href="#home">Home</a>
-            </li>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#schedule">Schedule</a>
-            </li>
-            <li>
-              <a href="#speakers">Tutors</a>
-            </li>
-            <li>
-              <a href="#pricing">Stages</a>
-	    </li>
-            <li>
-              <a href="#location">Location</a>
-            </li>
-          </ul>
-        </nav>
-        <a href="#" class="top-tickets">Register Now!</a>
-      </header>
-
-      <!-- Content Wrapper -->
-      <div class="content-wrapper">
-        <!-- Intro Section -->
-        <section class="section section-home no-padding" id="home">
-          <div class="intro-box">
-            <div class="intro-box-content">
-              <div class="container">
-                <div class="event-info">
-                  <br><br>
-                  <h1 class="event-name">TECHPRENEURSHIP BOOTCAMP</h1>
-                  <p class="event-date">June 19 - July 1, Hyderabad</p>
+            <!--Navigation-->
+            <nav class="main-nav">
+                <span class="active-indicator"></span>
+                <ul class="clean-list">
+                    <li class="active menu-item-has-children">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#schedule">Schedule</a>
+                    </li>
+                    <li>
+                        <a href="#speakers">Tutors</a>
+                    </li>
+                    <li>
+                        <a href="#pricing">Stages</a>
+                    </li>
+                    <li>
+                        <a href="#location">Location</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="top-tickets">Register Now!</a>
+        </header>
+        <!-- Content Wrapper -->
+        <div class="content-wrapper">
+            <!-- Intro Section -->
+            <section class="section section-home no-padding" id="home">
+                <div class="intro-box">
+                    <div class="intro-box-content">
+                        <div class="container">
+                            <div class="event-info">
+                                <br>
+                                <br>
+                                <h1 class="event-name">TECHPRENEURSHIP BOOTCAMP</h1>
+                                <p class="event-date">June 19 - July 1, Hyderabad</p>
+                            </div>
+                        </div>
+                        <div class="countdown-box" id="font-countdown">
+                            <div class="container">
+                                <ul class="clean-list countdown-timmer clearfix" data-duedate="2017/6/19">
+                                    <li class="timmer-option">
+                                        <span class="value days"></span>
+                                        <span class="title">Days</span>
+                                    </li>
+                                    <li class="timmer-option">
+                                        <span class="value hours"></span>
+                                        <span class="title">Hours</span>
+                                    </li>
+                                    <li class="timmer-option">
+                                        <span class="value minutes"></span>
+                                        <span class="title">Minutes</span>
+                                    </li>
+                                    <li class="timmer-option">
+                                        <span class="value seconds"></span>
+                                        <span class="title">Seconds</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="btn-wrapper align-center">
+                            <a href="#" class="btn filled top-tickets">Register</a>
+                        </div>
+                    </div>
+                    <img src="tech.jpg" alt="intro box cover" class="intro-box-cover" />
                 </div>
-              </div>
-
-              <div class="countdown-box" id="font-countdown">
+            </section>
+            <!-- About Section -->
+            <section class="section section-about" id="about">
+                <!-- About Box Wrapper -->
                 <div class="container">
-                  <ul class="clean-list countdown-timmer clearfix" data-duedate="2017/6/19">
-                    <li class="timmer-option">
-                      <span class="value days"></span>
-                      <span class="title">Days</span>
-                    </li>
-
-                    <li class="timmer-option">
-                      <span class="value hours"></span>
-                      <span class="title">Hours</span>
-                    </li>
-
-                    <li class="timmer-option">
-                      <span class="value minutes"></span>
-                      <span class="title">Minutes</span>
-                    </li>
-
-                    <li class="timmer-option">
-                      <span class="value seconds"></span>
-                      <span class="title">Seconds</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="btn-wrapper align-center">
-                <a href="#" class="btn filled top-tickets">Register</a>
-              </div>
-            </div>
-
-            <img src="tech.jpg" alt="intro box cover" class="intro-box-cover" />
-
-          </div>
-        </section>
-
-        <!-- About Section -->
-        <section class="section section-about" id="about">
-
-          <!-- About Box Wrapper -->
-          <div class="container">
-            <div class="about-box" id="md-shadow">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="image-wrapper translate-left">
-                    <img src="LogoTech.png" alt="about image cover" id="md-shadow"/>
-                  </div>
-                </div>
-
-                <div class="col-md-6">
-                  <div class="text-box">
-                    <h3>Techpreneurship <span>June 2017</span></h3>
-                    <p>A 12-day, 72 hour boot camp to empower young adults to make an impact on their communities through technology-enabled (technology-driven) entrepreneurship.</p>
-                  </div>
-
-                  <div class="image-wrapper translate-left-bottom" >
-                    <img src="tech.jpg" alt="about image cover"/>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-	  
-          <!-- Counter Boxes -->
-          <div class="counter-boxes">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-3 col-sm-6 counter-box-wrapper">
-                  <div class="counter-box" data-counter-value="30" data-state="0">
-                    <span class="value-container"></span>
-                    <p class="box-title">Participants</p>
-                  </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6 counter-box-wrapper">
-                  <div class="counter-box" data-counter-value="6" data-state="0">
-                    <span class="value-container"></span>
-                    <p class="box-title">Teams</p>
-                  </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6 counter-box-wrapper">
-                  <div class="counter-box" data-counter-value="12" data-state="0">
-                    <span class="value-container"></span>
-                    <p class="box-title">Days</p>
-                  </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6 counter-box-wrapper">
-                  <div class="counter-box" data-counter-value="11" data-state="0">
-                    <span class="value-container"></span>
-                    <p class="box-title">Tutors and Mentors</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-	<!-- Program Section -->
-        <section class="section section-program" id="schedule" data-parallax-bg="classroom1.png">
-
-          <div class="box-img-wrapper">
-            <div class="box-img">
-              <span></span>
-            </div>
-          </div>
-
-
-          <h2 class="section-header container align-center inverted">Schedule<span><i class="icon"></i></span></h2>
-
-          
-          <div class="program-tabs">
-            <div class="tabed-content">
-              <div class="tabs-body">
-                <div id="prgrm-tb-1" class="tab-item current">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <span class="timming"></span>				     
-			    <h5 class="title">What is Entrepreneurship?</h5>
-                            <ul style="font-weight:bold">
-                              <li>Qualities of an Entrepreneur</li>
-                              <li>Case Studies</li>
-
-                            </ul>
-                            
-                          </div>
+                    <div class="about-box" id="md-shadow">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="image-wrapper translate-left">
+                                    <img src="LogoTech.png" alt="about image cover" id="md-shadow" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="text-box">
+                                    <h3>Techpreneurship <span>June 2017</span></h3>
+                                    <p>A 12-day, 72 hour boot camp to empower young adults to make an impact on their communities through technology-enabled (technology-driven) entrepreneurship.</p>
+                                </div>
+                                <div class="image-wrapper translate-left-bottom">
+                                    <img src="tech.jpg" alt="about image cover" />
+                                </div>
+                            </div>
                         </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <span class="timming"></span>
-                            <h5 class="title">What is Market?</h5>
-                          </div>
-                          <ul style="font-weight:bold">
-                            <li>Choosing the Market</li>
-                            <li>Market Positioning</li>
-                            <li>Competitors</li>
-                            <li>Pricing Strategies</li>
-                            <li>Human Centric Design Thinking
-                              (Importance of designing the right product)</li>
-                          </ul>
-                        </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <span class="timming"></span>
-                            <h5 class="title">Profit, Value Added</h5>
-                          </div>
-                          <ul style="font-weight:bold">
-                            <li>Why Should People Buy Your Product</li>
-                            <li>What Does it Add to Their Lives</li>
-                            <li>Is it Worth What They are Spending</li>
-                          </ul>
-                        </div>
-                      </div>
                     </div>
-                  </div>
                 </div>
-                <div id="prgrm-tb-2" class="tab-item">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                          </div>
+                <!-- Counter Boxes -->
+                <div class="counter-boxes">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 counter-box-wrapper">
+                                <div class="counter-box" data-counter-value="30" data-state="0">
+                                    <span class="value-container"></span>
+                                    <p class="box-title">Participants</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 counter-box-wrapper">
+                                <div class="counter-box" data-counter-value="6" data-state="0">
+                                    <span class="value-container"></span>
+                                    <p class="box-title">Teams</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 counter-box-wrapper">
+                                <div class="counter-box" data-counter-value="12" data-state="0">
+                                    <span class="value-container"></span>
+                                    <p class="box-title">Days</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 counter-box-wrapper">
+                                <div class="counter-box" data-counter-value="11" data-state="0">
+                                    <span class="value-container"></span>
+                                    <p class="box-title">Tutors and Mentors</p>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                      <div class="col-md-12">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <h5 class="title">Ideation</h5>
-                          </div>
-                          <ul style="font-weight:bold">      
-                            <li>Team Formation</li>
-                            <li>Overview of Business Verticals</li>
-                            <li> Identifying Problem Areas</li>
-                            <li>Defining a Problem</li>
-                            <li>Brainstorming</li>
-                            <li>Final Elevator Pitches</li>
-                          </ul>
-                        </div>
-                      </div>                         
                     </div>
-                  </div>
                 </div>
-                <div id="prgrm-tb-3" class="tab-item">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <h5 class="title">Business Strategy</h5>
-                          </div>
-                          <ul style="font-weight:bold">
-                            <li>What is a Business Plan?</li>
-                            <li>Scope of a Business</li>
-                            <li>Feasibility Study</li>
-                            <li>Pivoting </li>
-                            <li>Mission Statement</li>
-                            <li>Vision Statement</li>
-                          </ul>
-                        </div>
-                      </div>
+            </section>
+            <!-- Program Section -->
+            <section class="section section-program" id="schedule" data-parallax-bg="classroom1.png">
+                <div class="box-img-wrapper">
+                    <div class="box-img">
+                        <span></span>
                     </div>
-                  </div>
                 </div>
-                <div id="prgrm-tb-4" class="tab-item">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <h5 class="title">Prototyping Stage</h5>
-                          </div>
-                          <ul style="font-weight:bold">
-                            <li>What Role Does Technology Play in Entrepreneurship?</li>
-                            <li>Tech-driven Entrepreneurship Case Studies</li>
-                          </ul>
+                <h2 class="section-header container align-center inverted">Schedule<span><i class="icon"></i></span></h2>
+                <div class="program-tabs">
+                    <div class="tabed-content">
+                        <div class="tabs-body">
+                            <div id="prgrm-tb-1" class="tab-item current">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <span class="timming"></span>
+                                                    <h5 class="title">What is Entrepreneurship?</h5>
+                                                    <ul style="font-weight:bold">
+                                                        <li>Qualities of an Entrepreneur</li>
+                                                        <li>Case Studies</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <span class="timming"></span>
+                                                    <h5 class="title">What is Market?</h5>
+                                                </div>
+                                                <ul style="font-weight:bold">
+                                                    <li>Choosing the Market</li>
+                                                    <li>Market Positioning</li>
+                                                    <li>Competitors</li>
+                                                    <li>Pricing Strategies</li>
+                                                    <li>Human Centric Design Thinking (Importance of designing the right product)</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <span class="timming"></span>
+                                                    <h5 class="title">Profit, Value Added</h5>
+                                                </div>
+                                                <ul style="font-weight:bold">
+                                                    <li>Why Should People Buy Your Product</li>
+                                                    <li>What Does it Add to Their Lives</li>
+                                                    <li>Is it Worth What They are Spending</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="prgrm-tb-2" class="tab-item">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">Ideation</h5>
+                                                </div>
+                                                <ul style="font-weight:bold">
+                                                    <li>Team Formation</li>
+                                                    <li>Overview of Business Verticals</li>
+                                                    <li> Identifying Problem Areas</li>
+                                                    <li>Defining a Problem</li>
+                                                    <li>Brainstorming</li>
+                                                    <li>Final Elevator Pitches</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="prgrm-tb-3" class="tab-item">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">Business Strategy</h5>
+                                                </div>
+                                                <ul style="font-weight:bold">
+                                                    <li>What is a Business Plan?</li>
+                                                    <li>Scope of a Business</li>
+                                                    <li>Feasibility Study</li>
+                                                    <li>Pivoting </li>
+                                                    <li>Mission Statement</li>
+                                                    <li>Vision Statement</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="prgrm-tb-4" class="tab-item">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">Prototyping Stage</h5>
+                                                </div>
+                                                <ul style="font-weight:bold">
+                                                    <li>What Role Does Technology Play in Entrepreneurship?</li>
+                                                    <li>Tech-driven Entrepreneurship Case Studies</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">Technology Part Starts Here!</h5>
+                                                </div>
+                                                <ul style="font-weight:bold">
+                                                    <li>Introduction to Web Technologies</li>
+                                                    <li>Introduction to HTML</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="prgrm-tb-5" class="tab-item">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">HTML Part II - Coding Challenges</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">Introduction to Styles, CSS</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">HTML and CSS Coding Challenges</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="prgrm-tb-6" class="tab-item">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">Introduction to Javascript</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">Javascript Coding Challenges</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">Sketching and Wireframe Session</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="prgrm-tb-7" class="tab-item">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">User Interface / Experience Design Session</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">Common Components of a Website:</h5>
+                                                </div>
+                                                <ul style="font-weight:bold">
+                                                    <li>Login Page (along with SQLite or MySQL)</li>
+                                                    <li>Dashboard/Profile Page</li>
+                                                    <li>Product Catalogue</li>
+                                                    <li>Cart</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">Hack Session 1</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="prgrm-tb-8" class="tab-item">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">User Interface / Experience Design Session</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">Hack Session 2</h5>
+                                                    <h5 class="title">Test/Feedback Session 1</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">Hack Session 3</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="prgrm-tb-9" class="tab-item">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">Competitor/Market Analysis</h5>
+                                                </div>
+                                                <ul style="font-weight:bold">
+                                                    <li>Product Differentiation</li>
+                                                    <li>SWOT Analysis</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">Hack Session 4</h5>
+                                                    <h5 class="title">Test/Feedback Session 2</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">Hack Session 5</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="prgrm-tb-10" class="tab-item">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">Hack Session 6</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">Hack Session 7</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                    <h5 class="title">Final Product Demo</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="prgrm-tb-11" class="tab-item">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                </div>
+                                                <ul style="font-weight:bold">
+                                                    <li>What is a Business Plan Presentation?</li>
+                                                    <li>What is an Investor Pitch?</li>
+                                                    <li>What is the Role of Communication in a Business?</li>
+                                                    <li>Presentation Skills</li>
+                                                    <li>Presentation Making Session 1</li>
+                                                    <li>Mock Presentation 1</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="prgrm-tb-12" class="tab-item">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="program-box">
+                                                <div class="box-header">
+                                                </div>
+                                                <ul style="font-weight:bold">
+                                                    <li>Presentation Making Session 2</li>
+                                                    <li>Final Presentation and Demo</li>
+                                                    <li>Judgement</li>
+                                                    <li>Gala Dinner and Award Presentation</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <h5 class="title">Technology Part Starts Here!</h5>
-                          </div>
-                          <ul style="font-weight:bold">
-                            <li>Introduction to Web Technologies</li>
-                            <li>Introduction to HTML</li>
-                          </ul>
+                        <div class="tabs-header">
+                            <div class="container">
+                                <ul class="clean-list">
+                                    <li data-tab-link="prgrm-tb-1" class="tab-link current">
+                                        <i></i>
+                                        <div class="tab-link-controll">
+                                            <span class="date">JUNE 19</span>
+                                        </div>
+                                    </li>
+                                    <li data-tab-link="prgrm-tb-2" class="tab-link">
+                                        <i></i>
+                                        <div class="tab-link-controll">
+                                            <span class="date">JUNE 20</span>
+                                        </div>
+                                    </li>
+                                    <li data-tab-link="prgrm-tb-3" class="tab-link">
+                                        <i></i>
+                                        <div class="tab-link-controll">
+                                            <span class="date">JUNE 21</span>
+                                        </div>
+                                    </li>
+                                    <li data-tab-link="prgrm-tb-4" class="tab-link">
+                                        <i></i>
+                                        <div class="tab-link-controll">
+                                            <span class="date">JUNE 22</span>
+                                        </div>
+                                    </li>
+                                    <li data-tab-link="prgrm-tb-5" class="tab-link">
+                                        <i></i>
+                                        <div class="tab-link-controll">
+                                            <span class="date">JUNE 23</span>
+                                        </div>
+                                    </li>
+                                    <li data-tab-link="prgrm-tb-6" class="tab-link">
+                                        <i></i>
+                                        <div class="tab-link-controll">
+                                            <span class="date">JUNE 24</span>
+                                        </div>
+                                    </li>
+                                    <li data-tab-link="prgrm-tb-7" class="tab-link">
+                                        <i></i>
+                                        <div class="tab-link-controll">
+                                            <span class="date">JUNE 26</span>
+                                        </div>
+                                    </li>
+                                    <li data-tab-link="prgrm-tb-8" class="tab-link">
+                                        <i></i>
+                                        <div class="tab-link-controll">
+                                            <span class="date">JUNE 27</span>
+                                        </div>
+                                    </li>
+                                    <li data-tab-link="prgrm-tb-9" class="tab-link">
+                                        <i></i>
+                                        <div class="tab-link-controll">
+                                            <span class="date">JUNE 28</span>
+                                        </div>
+                                    </li>
+                                    <li data-tab-link="prgrm-tb-10" class="tab-link">
+                                        <i></i>
+                                        <div class="tab-link-controll">
+                                            <span class="date">JUNE 29</span>
+                                        </div>
+                                    </li>
+                                    <li data-tab-link="prgrm-tb-11" class="tab-link">
+                                        <i></i>
+                                        <div class="tab-link-controll">
+                                            <span class="date">JUNE 30</span>
+                                        </div>
+                                    </li>
+                                    <li data-tab-link="prgrm-tb-12" class="tab-link">
+                                        <i></i>
+                                        <div class="tab-link-controll">
+                                            <span class="date">JULY 1</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
                 </div>
-                <div id="prgrm-tb-5" class="tab-item">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <h5 class="title">HTML Part II - Coding Challenges</h5>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <h5 class="title">Introduction to Styles, CSS</h5>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <h5 class="title">HTML and CSS Coding Challenges</h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="prgrm-tb-6" class="tab-item">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <h5 class="title">Introduction to Javascript</h5>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <h5 class="title">Javascript Coding Challenges</h5>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <h5 class="title">Sketching and Wireframe Session</h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="prgrm-tb-7" class="tab-item">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <h5 class="title">User Interface / Experience Design Session</h5>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">   
-                            <h5 class="title">Common Components of a Website:</h5>
-                          </div>
-                          <ul style="font-weight:bold">
-                            <li>Login Page (along with SQLite or MySQL)</li>
-                            <li>Dashboard/Profile Page</li>
-                            <li>Product Catalogue</li>
-                            <li>Cart</li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <h5 class="title">Hack Session 1</h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="prgrm-tb-8" class="tab-item">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <h5 class="title">User Interface / Experience Design Session</h5>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <h5 class="title">Hack Session 2</h5>
-                            <h5 class="title">Test/Feedback Session 1</h5>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <h5 class="title">Hack Session 3</h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="prgrm-tb-9" class="tab-item">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <h5 class="title">Competitor/Market Analysis</h5>
-                          </div>
-                          <ul style="font-weight:bold">
-                            <li>Product Differentiation</li>
-                            <li>SWOT Analysis</li>
-
-                          </ul>
-                        </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <h5 class="title">Hack Session 4</h5>
-                            <h5 class="title">Test/Feedback Session 2</h5>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <h5 class="title">Hack Session 5</h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="prgrm-tb-10" class="tab-item">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <h5 class="title">Hack Session 6</h5>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <h5 class="title">Hack Session 7</h5>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                            <h5 class="title">Final Product Demo</h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="prgrm-tb-11" class="tab-item">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                          </div>
-                          <ul style="font-weight:bold">      
-                            <li>What is a Business Plan Presentation?</li>
-                            <li>What is an Investor Pitch?</li>
-                            <li>What is the Role of Communication in a Business?</li>
-                            <li>Presentation Skills</li>
-                            <li>Presentation Making Session 1</li>
-                            <li>Mock Presentation 1</li>
-                          </ul>
-                        </div>
-                      </div>                         
-                    </div>
-                  </div>
-                </div>
-                <div id="prgrm-tb-12" class="tab-item">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="program-box">
-                          <div class="box-header">
-                          </div>
-                          <ul style="font-weight:bold">      
-                            <li>Presentation Making Session 2</li>
-                            <li>Final Presentation and Demo</li>
-                            <li>Judgement</li>
-                            <li>Gala Dinner and Award Presentation</li>
-                          </ul>
-                        </div>
-                      </div>                         
-                    </div>
-                  </div>
-                </div>
-                
-              </div>
-
-              <div class="tabs-header">
+            </section>
+            <!-- Speakers Section -->
+            <section class="section section-speakers" id="speakers">
+                <h2 class="section-header container align-center">Tutors<span></span></h2>
                 <div class="container">
-                  <ul class="clean-list">
-                    <li data-tab-link="prgrm-tb-1" class="tab-link current">
-                      <i></i>
-                      <div class="tab-link-controll">
-                        <span class="date">JUNE 19</span>
-                        
-                      </div>
-                    </li>
-                    <li data-tab-link="prgrm-tb-2" class="tab-link">
-                      <i></i>
-                      <div class="tab-link-controll">
-                        <span class="date">JUNE 20</span>
-                        
-                      </div>
-                    </li>
-                    <li data-tab-link="prgrm-tb-3" class="tab-link">
-                      <i></i>
-                      <div class="tab-link-controll">
-                        <span class="date">JUNE 21</span>
-                        
-                      </div>
-                    </li>
-                    <li data-tab-link="prgrm-tb-4" class="tab-link">
-                      <i></i>
-                      <div class="tab-link-controll">
-                        <span class="date">JUNE 22</span>
-                        
-                      </div>
-                    </li>
-                    <li data-tab-link="prgrm-tb-5" class="tab-link">
-                      <i></i>
-                      <div class="tab-link-controll">
-                        <span class="date">JUNE 23</span>
-                        
-                      </div>
-                    </li>
-                    <li data-tab-link="prgrm-tb-6" class="tab-link">
-                      <i></i>
-                      <div class="tab-link-controll">
-                        <span class="date">JUNE 24</span>
-                        
-                      </div>
-                    </li>
-                    <li data-tab-link="prgrm-tb-7" class="tab-link">
-                      <i></i>
-                      <div class="tab-link-controll">
-                        <span class="date">JUNE 26</span>
-                        
-                      </div>
-                    </li>
-                    <li data-tab-link="prgrm-tb-8" class="tab-link">
-                      <i></i>
-                      <div class="tab-link-controll">
-                        <span class="date">JUNE 27</span>
-                        
-                      </div>
-                    </li>
-                    <li data-tab-link="prgrm-tb-9" class="tab-link">
-                      <i></i>
-                      <div class="tab-link-controll">
-                        <span class="date">JUNE 28</span>
-                        
-                      </div>
-                    </li>
-                    <li data-tab-link="prgrm-tb-10" class="tab-link">
-                      <i></i>
-                      <div class="tab-link-controll">
-                        <span class="date">JUNE 29</span>
-                        
-                      </div>
-                    </li>
-                    <li data-tab-link="prgrm-tb-11" class="tab-link">
-                      <i></i>
-                      <div class="tab-link-controll">
-                        <span class="date">JUNE 30</span>
-                        
-                      </div>
-                    </li>
-                    <li data-tab-link="prgrm-tb-12" class="tab-link">
-                      <i></i>
-                      <div class="tab-link-controll">
-                        <span class="date">JULY 1</span>
-                        
-                      </div>
-                    </li>
-
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- Speakers Section -->
-        <section class="section section-speakers" id="speakers">
-          <h2 class="section-header container align-center">Tutors<span></span></h2>
-
-          <div class="container">
-            <div class="speakers-tabs">
-              <div class="tabed-content">
-                <div class="row row-fit">
-                  <div class="col-md-6">
-                    <div class="tabs-body">
-                      <div id="nr-1" class="tab-item current">
-                        <div class="speaker-info-box">
-                          <h3 class="theme-title">Entrepreneurship</h3>
-
-                          <div class="event-meta">
-                            <div class="speaker-info">
-                              <img src="ajitha.jpg" alt="speaker image" />
-                              <span class="name">Ajitha Molakapalli</span>
-                            </div>
-                            <span class="date"></span>
-                          </div>
-
-                          <p class="theme-description">Founder
-                            and CEO of Aham Learning Hub,
-                            Ajitha has always been
-                            interested in education and its
-                            integration with
-                            technology. Having been in
-                            technology for the past 18
-                            years in companies like PayPal
-                            and Sun Microsystems, she is
-                            trying to disrupt the
-                            perception of education for
-                            young adults.</p>
-
-                          <div class="social-block-wrapper">
-                            <ul class="clean-list social-block">
-                              <li>
-                                <a href="https://www.linkedin.com/in/ajitham/"><i class="icon-linkedin" target="_blank"></i></a>
-                              </li>
-                              <li>
-                                <a href="https://www.facebook.com/ajitha.atluri"><i class="icon-facebook" target="_blank"></i></a>
-                              </li> 
-
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div id="nr-2" class="tab-item">
-                        <div class="speaker-info-box">
-                          <h3 class="theme-title">Web Technologies</h3>
-
-                          <div class="event-meta">
-                            <div class="speaker-info">
-                              <img src="manasa.jpg" alt="speaker image" />
-                              <span class="name">Manasa Madapu</span>
-                            </div>
-                            <span class="date"></span>
-                          </div>
-
-                          <p class="theme-description">She
-                            is a Co-Founder of the product
-                            development company Betalectic,
-                            which specializes in building
-                            Web Applications, Mobile Apps,
-                            ERP tools and
-                            infrastructure. An entrepreneur
-                            herself, and with plenty of
-                            prior experience in management
-                            and software, she has been an
-                            integral part of Aham since its
-                            conception.</p>
-
-                          <div class="social-block-wrapper">
-                            <ul class="clean-list social-block">
-                              <li>
-                                <a href="https://www.linkedin.com/in/manasa-madapu-02388512a/"><i class="icon-linkedin" target="_blank"></i></a>
-                              </li>
-                              <li>
-                                <a href="https://www.facebook.com/mansimadapu"><i class="icon-facebook" target="_blank"></i></a>
-                              </li> 
-                              
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div id="nr-3" class="tab-item">
-                        <div class="speaker-info-box">
-                          <h3 class="theme-title">Web Technologies</h3>
-
-                          <div class="event-meta">
-                            <div class="speaker-info">
-                              <img src="rajiv.jpg" alt="speaker image" />
-                              <span class="name">Rajiv Seelam</span>
-                            </div>
-                            <span class="date"></span>
-                          </div>
-
-                          <p class="theme-description">Co-Founder of
-                          Betalectic and past CTO of BuildBuy, Rajiv
-                          is not one who unfamiliar with the
-                          entrepreneurial processes. He has worked
-                          extensively with technology like java,
-                          MySql, Android..etc, and has been an
-                          integral part of Aham’s growth since
-                          conception.</p>
-
-                          <div class="social-block-wrapper">
-                            <ul class="clean-list social-block">
-                              <li>
-                                <a href="https://www.linkedin.com/in/rajivseelam/"><i class="icon-linkedin" target="_blank"></i></a>
-                              </li>
-                              <li>
-                                <a href="https://www.facebook.com/seelamrajiv"><i class="icon-facebook" target="_blank"></i></a>
-                              </li> 
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div id="nr-4" class="tab-item">
-                        <div class="speaker-info-box">
-                          <h3 class="theme-title">Business Strategy</h3>
-
-                          <div class="event-meta">
-                            <div class="speaker-info">
-                              <img src="aditya.jpg" alt="speaker image" />
-                              <span class="name">Aditya Atluri</span>
-                            </div>
-                            <span class="date"></span>
-                          </div>
-
-                          <p class="theme-description">Currently working at Kanvic as an Associate Consultant, Aditya has had extensive experience working with high performing teams and startups. Well versed with corporate and business strategies he is known for his ability to identify opportunities for growth. Aditya specializes in areas like Strategic Planning and Market Research.</p>
-
-                          <div class="social-block-wrapper">
-                            <ul class="clean-list social-block">
-                              <li>
-                                <a href="https://www.linkedin.com/in/adityatluri/"><i class="icon-linkedin" target="_blank"></i></a>
-                              </li>
-                              <!--  <li>
+                    <div class="speakers-tabs">
+                        <div class="tabed-content">
+                            <div class="row row-fit">
+                                <div class="col-md-6">
+                                    <div class="tabs-body">
+                                        <div id="nr-1" class="tab-item current">
+                                            <div class="speaker-info-box">
+                                                <h3 class="theme-title">Entrepreneurship</h3>
+                                                <div class="event-meta">
+                                                    <div class="speaker-info">
+                                                        <img src="ajitha.jpg" alt="speaker image" />
+                                                        <span class="name">Ajitha Molakapalli</span>
+                                                    </div>
+                                                    <span class="date"></span>
+                                                </div>
+                                                <p class="theme-description">Founder and CEO of Aham Learning Hub, Ajitha has always been interested in education and its integration with technology. Having been in technology for the past 18 years in companies like PayPal and Sun Microsystems, she is trying to disrupt the perception of education for young adults.</p>
+                                                <div class="social-block-wrapper">
+                                                    <ul class="clean-list social-block">
+                                                        <li>
+                                                            <a href="https://www.linkedin.com/in/ajitham/"><i class="icon-linkedin" target="_blank"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.facebook.com/ajitha.atluri"><i class="icon-facebook" target="_blank"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="nr-2" class="tab-item">
+                                            <div class="speaker-info-box">
+                                                <h3 class="theme-title">Web Technologies</h3>
+                                                <div class="event-meta">
+                                                    <div class="speaker-info">
+                                                        <img src="manasa.jpg" alt="speaker image" />
+                                                        <span class="name">Manasa Madapu</span>
+                                                    </div>
+                                                    <span class="date"></span>
+                                                </div>
+                                                <p class="theme-description">She is a Co-Founder of the product development company Betalectic, which specializes in building Web Applications, Mobile Apps, ERP tools and infrastructure. An entrepreneur herself, and with plenty of prior experience in management and software, she has been an integral part of Aham since its conception.
+                                                </p>
+                                                <div class="social-block-wrapper">
+                                                    <ul class="clean-list social-block">
+                                                        <li>
+                                                            <a href="https://www.linkedin.com/in/manasa-madapu-02388512a/"><i class="icon-linkedin" target="_blank"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.facebook.com/mansimadapu"><i class="icon-facebook" target="_blank"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="nr-3" class="tab-item">
+                                            <div class="speaker-info-box">
+                                                <h3 class="theme-title">Web Technologies</h3>
+                                                <div class="event-meta">
+                                                    <div class="speaker-info">
+                                                        <img src="rajiv.jpg" alt="speaker image" />
+                                                        <span class="name">Rajiv Seelam</span>
+                                                    </div>
+                                                    <span class="date"></span>
+                                                </div>
+                                                <p class="theme-description">Co-Founder of Betalectic and past CTO of BuildBuy, Rajiv is not one who unfamiliar with the entrepreneurial processes. He has worked extensively with technology like java, MySql, Android..etc, and has been an integral part of Aham’s growth since conception.
+                                                </p>
+                                                <div class="social-block-wrapper">
+                                                    <ul class="clean-list social-block">
+                                                        <li>
+                                                            <a href="https://www.linkedin.com/in/rajivseelam/"><i class="icon-linkedin" target="_blank"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.facebook.com/seelamrajiv"><i class="icon-facebook" target="_blank"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="nr-4" class="tab-item">
+                                            <div class="speaker-info-box">
+                                                <h3 class="theme-title">Business Strategy</h3>
+                                                <div class="event-meta">
+                                                    <div class="speaker-info">
+                                                        <img src="aditya.jpg" alt="speaker image" />
+                                                        <span class="name">Aditya Atluri</span>
+                                                    </div>
+                                                    <span class="date"></span>
+                                                </div>
+                                                <p class="theme-description">Currently working at Kanvic as an Associate Consultant, Aditya has had extensive experience working with high performing teams and startups. Well versed with corporate and business strategies he is known for his ability to identify opportunities for growth. Aditya specializes in areas like Strategic Planning and Market Research.</p>
+                                                <div class="social-block-wrapper">
+                                                    <ul class="clean-list social-block">
+                                                        <li>
+                                                            <a href="https://www.linkedin.com/in/adityatluri/"><i class="icon-linkedin" target="_blank"></i></a>
+                                                        </li>
+                                                        <!--  <li>
                                     <a href="#"><i class="icon-facebook" target="_blank"></i></a>
                               </li>  -->
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div id="nr-5" class="tab-item">
-                        <div class="speaker-info-box">
-                          <h3 class="theme-title">Communication and Presentation</h3>
-
-                          <div class="event-meta">
-                            <div class="speaker-info">
-                              <img src="nagaraja.jpg" alt="speaker image" />
-                              <span class="name">Nagaraj Padavala</span>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="nr-5" class="tab-item">
+                                            <div class="speaker-info-box">
+                                                <h3 class="theme-title">Communication and Presentation</h3>
+                                                <div class="event-meta">
+                                                    <div class="speaker-info">
+                                                        <img src="nagaraja.jpg" alt="speaker image" />
+                                                        <span class="name">Nagaraj Padavala</span>
+                                                    </div>
+                                                    <span class="date"></span>
+                                                </div>
+                                                <p class="theme-description">A veteran of the industry, Nagaraj has over 16 years of IT Consulting experience. And 7 years of Learning and Organizational Development experience. Currently a Management Consultant at Pragna Services, he excels at Leadership Development, Behavioral skills, understanding of Business processes.</p>
+                                                <div class="social-block-wrapper">
+                                                    <ul class="clean-list social-block">
+                                                        <li>
+                                                            <a href="https://www.linkedin.com/in/nagaraja-padavala-8227a28/"><i class="icon-linkedin" target="_blank"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.facebook.com/profile.php?id=100013563161660"><i class="icon-facebook" target="_blank"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="tabs-header">
+                                        <ul class="clean-list clearfix">
+                                            <li data-tab-link="nr-1" class="tab-link current">
+                                                <div class="speaker-box">
+                                                    <img src="ajitha.jpg" alt="speaker image" />
+                                                </div>
+                                            </li>
+                                            <li data-tab-link="nr-2" class="tab-link">
+                                                <div class="speaker-box">
+                                                    <img src="manasa.jpg" alt="speaker image" />
+                                                </div>
+                                            </li>
+                                            <li data-tab-link="nr-3" class="tab-link">
+                                                <div class="speaker-box">
+                                                    <img src="rajiv.jpg" alt="speaker image" />
+                                                </div>
+                                            </li>
+                                            <li data-tab-link="nr-4" class="tab-link">
+                                                <div class="speaker-box">
+                                                    <img src="aditya.jpg" alt="speaker image" />
+                                                </div>
+                                            </li>
+                                            <li data-tab-link="nr-5" class="tab-link">
+                                                <div class="speaker-box">
+                                                    <img src="nagaraja.jpg" alt="speaker image" />
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                            <span class="date"></span>
-                          </div>
-
-                          <p class="theme-description">A veteran of
-                          the industry, Nagaraj has over 16 years of
-                          IT Consulting experience. And 7 years of
-                          Learning and Organizational Development
-                          experience. Currently a Management
-                          Consultant at Pragna Services, he excels at
-                          Leadership Development, Behavioral skills,
-                          understanding of Business processes.</p>
-
-                          <div class="social-block-wrapper">
-                            <ul class="clean-list social-block">
-                              <li>
-                                <a href="https://www.linkedin.com/in/nagaraja-padavala-8227a28/"><i class="icon-linkedin" target="_blank"></i></a>
-                              </li>
-                              <li>
-                                <a href="https://www.facebook.com/profile.php?id=100013563161660"><i class="icon-facebook" target="_blank"></i></a>
-                              </li> 
-                            </ul>
-                          </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="tabs-header">
-                      <ul class="clean-list clearfix">
-                        <li data-tab-link="nr-1" class="tab-link current">
-                          <div class="speaker-box">
-                            <img src="ajitha.jpg" alt="speaker image" />
-                          </div>
-                        </li>
-                        <li data-tab-link="nr-2" class="tab-link">
-                          <div class="speaker-box">
-                            <img src="manasa.jpg" alt="speaker image" />
-                          </div>
-                        </li>
-                        <li data-tab-link="nr-3" class="tab-link">
-                          <div class="speaker-box">
-                            <img src="rajiv.jpg" alt="speaker image" />
-                          </div>
-                        </li>
-                        <li data-tab-link="nr-4" class="tab-link">
-                          <div class="speaker-box">
-                            <img src="aditya.jpg" alt="speaker image" />
-                          </div>
-                        </li>
-                        <li data-tab-link="nr-5" class="tab-link">
-                          <div class="speaker-box">
-                            <img src="nagaraja.jpg" alt="speaker image" />
-                          </div>
-                        </li>
-                      </ul>
+                </div>
+            </section>
+            <!-- stages Section -->
+            <section class="section section-pricing" id="pricing">
+                <h2 class="section-header container align-center inverted">STAGES</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 pricing-table-wrapper">
+                            <div class="pricing-table">
+                                <div class="table-header">
+                                    <h3 class="table-name">Ideate</h3>
+                                </div>
+                                <div class="table-body">
+                                    <ul class="table-description clean-list">
+                                        <li>Unlock entrepreneurial DNA </li>
+                                        <li>Develop a solution-focused mindset </li>
+                                        <li>Develop a action-oriented mindset</li>
+                                        <li>Equip students with the skills and thoughts</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 pricing-table-wrapper">
+                            <div class="pricing-table">
+                                <div class="table-header">
+                                    <h3 class="table-name">Prototype</h3>
+                                </div>
+                                <div class="table-body">
+                                    <ul class="table-description clean-list">
+                                        <li>Design Process</li>
+                                        <li>Technology as a tool</li>
+                                        <li>Teamwork and collabaration</li>
+                                        <li>Make students adaptive to changes in technology</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 pricing-table-wrapper">
+                            <div class="pricing-table">
+                                <div class="table-header">
+                                    <h3 class="table-name">Pitch</h3>
+                                </div>
+                                <div class="table-body">
+                                    <ul class="table-description clean-list">
+                                        <li>Presentation skills</li>
+                                        <li>Communicate their ideas effectively</li>
+                                        <li>To make a comprehensive business plan</li>
+                                        <li>Develop a willingness to exploit opportunities</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
+            </section>
+            <!-- Faq Block -->
+            <br />
+            <div class="faq-block">
+                <h2 class="section-header container align-center">Frequently Asked Questions<span ></span></h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="faq-item">
+                                <h4 class="item-title">Who is this for?</h4>
+                                <p class="item-description">This bootcamp is aimed at those who are in the age group of 15-18 years old. If you have a thirst for entrepreneurship and technology, this techpreneurship bootcamp is for you.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="faq-item">
+                                <h4 class="item-title">What will I learn?</h4>
+                                <p class="item-description">You will be taught core skills to help convert your entrepreneurial ideas into market-viable prototypes
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="faq-item">
+                                <h4 class="item-title">How do I register?</h4>
+                                <p class="item-description">There <a href="#">Registration
+                      Form</a> is at the top of the webpage. A total of 30 students will be a part of the bootcamp
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="faq-item">
+                                <h4 class="item-title">Am I enrolled if I registered?</h4>
+                                <p class="item-description">No. 30 students will be selected to be a part of the bootcamp. You will be contacted if you are selected, and payments will be made at that point of time.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </section>
-
-        <!-- stages Section -->
-        <section class="section section-pricing" id="pricing">
-          <h2 class="section-header container align-center inverted">STAGES</h2>
-
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-4 pricing-table-wrapper">
-                <div class="pricing-table">
-                  <div class="table-header">
-                    <h3 class="table-name">Ideate</h3>
-                  </div>
-
-                  <div class="table-body">
-                    <ul class="table-description clean-list">
-                      <li>Unlock entrepreneurial DNA </li>
-                      <li>Develop a solution-focused mindset </li>
-                      <li>Develop a action-oriented mindset</li>
-                      <li>Equip students with the skills and thoughts</li>
-                    </ul> 
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-sm-4 pricing-table-wrapper">
-                <div class="pricing-table">
-                  <div class="table-header">
-                    <h3 class="table-name">Prototype</h3>
-                  </div>
-
-                  <div class="table-body">
-                    <ul class="table-description clean-list">
-                      <li>Design Process</li>
-                      <li>Technology as a tool</li>
-                      <li>Teamwork and collabaration</li>
-                      <li>Make students adaptive to changes in technology</li>
-                    </ul>
-
-		    
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-sm-4 pricing-table-wrapper">
-                <div class="pricing-table">
-                  <div class="table-header">
-                    <h3 class="table-name">Pitch</h3>
-                  </div>
-
-                  <div class="table-body">
-                    <ul class="table-description clean-list">
-                      <li>Presentation skills</li>
-                      <li>Communicate their ideas effectively</li>
-                      <li>To make a comprehensive business plan</li>
-                      <li>Develop a willingness to exploit opportunities</li>                        
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-        <!-- Faq Block -->
-	<br />
-        <div class="faq-block">
-          <h2 class="section-header container align-center">Frequently Asked Questions<span ></span></h2>
-
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3 col-sm-6">
-                <div class="faq-item">
-                  <h4 class="item-title">Who is this for?</h4>
-                  <p class="item-description">This bootcamp
-                    is aimed at those who are in the age group
-                    of 15-18 years old. If you have a thirst
-                    for entrepreneurship and technology, this
-                    techpreneurship bootcamp is for you.</p>
-                </div>
-              </div>
-
-              <div class="col-md-3 col-sm-6">
-                <div class="faq-item">
-                  <h4 class="item-title">What will I learn?</h4>
-                  <p class="item-description">You will be
-                    taught core skills to help convert your
-                    entrepreneurial ideas into market-viable
-                    prototypes</p>
-                </div>
-              </div>
-
-              <div class="col-md-3 col-sm-6">
-                <div class="faq-item">
-                  <h4 class="item-title">How do I register?</h4>
-                  <p class="item-description">There <a href="#">Registration
-                      Form</a> is at the top of the webpage. A
-                    total of 30 students will be a part of the
-                    bootcamp</p>
-                </div>
-              </div>
-
-              <div class="col-md-3 col-sm-6">
-                <div class="faq-item">
-                  <h4 class="item-title">Am I enrolled if I registered?</h4>
-                  <p class="item-description">No. 30 students will be
-                    selected to be a part of the bootcamp. You
-                    will be contacted if you are selected, and
-                    payments will be made at that point of
-                    time.
-		  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Location Section -->
-        <section class="section section-location no-padding" id="location">
-          <div class="map-wrapper">
-            <!-- Map Popup -->
-            <div id="contact-popup" class="no-select">
-              <div class="popup-wrapper">
-                <ul class="clean-list contact-meta">
-                  <li class="meta-option">
-                    <i class="icon icon-location2"></i>
-                    <p>Aham Learning Hub, Khajaguda</p>
-                  </li>
-
-                  <li class="meta-option">
-                    <i class="icon icon-phone"></i>
-                    <p>+91-7330666703</p>
-                  </li>
-
-                  <li class="meta-option">
-                    <i class="icon icon-envelope-o"></i>
-                    <p><a href="mailto:sathwik@ahamlearning.com">sathwik@ahamlearning.com</a></p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <!-- Map Canvas -->
-            <div id="map-canvas" class="contact-map" data-options='{
+            <!-- Location Section -->
+            <section class="section section-location no-padding" id="location">
+                <div class="map-wrapper">
+                    <!-- Map Popup -->
+                    <div id="contact-popup" class="no-select">
+                        <div class="popup-wrapper">
+                            <ul class="clean-list contact-meta">
+                                <li class="meta-option">
+                                    <i class="icon icon-location2"></i>
+                                    <p>Aham Learning Hub, Khajaguda</p>
+                                </li>
+                                <li class="meta-option">
+                                    <i class="icon icon-phone"></i>
+                                    <p>+91-7330666703</p>
+                                </li>
+                                <li class="meta-option">
+                                    <i class="icon icon-envelope-o"></i>
+                                    <p><a href="mailto:sathwik@ahamlearning.com">sathwik@ahamlearning.com</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Map Canvas -->
+                    <div id="map-canvas" class="contact-map" data-options='{
                  "marker": "img/map-marker-resize.png",
                  "marker_coord": {
                  "lat": "17.419303",
@@ -1139,56 +974,56 @@
                  },
                  "zoom": "14"
                  }'></div>
-          </div>
-        </section>
-      </div>
-
-      <!-- Main Footer -->
-      <footer class="main-footer">
-	<section class="section section-about">
-	  <h2 class="section-header container align-center">About Aham Learning Hub<span ></span></h2>
-	  <div class="container">
-	    <div class="text-box"><p>Our vision at Aham is “to bring together passionate subject matter experts, 21st century learners, committed team, organized content, innovative teaching strategies and relevant technology to create the world’s best learning hubs where authentic and personalized learning on any subject is experienced”<p></div></div>
-
-          <!-- Main Footer Area -->
-          <div class="main-footer-area">
-            <div class="container">
-	      <div class="text-box"><p>Visit the links below for more information on Aham</p></div>
-              <div class="row">
-		
-
-                <div class="col-md-12" >
-                  <div class="social-block-wrapper" style="text-align:center">
-                    <div class="inner-content">
-                      <ul class="clean-list social-block">
-                        <li>
-                          <a href="https://www.facebook.com/AhamLearning/" target="_blank">
-                            <i class="icon-facebook"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="https://www.ahamlearning.com" target="_blank">
-                            <i class="icon-edge"></i>
-                          </a>
-                        </li>
-                        <!-- <li> -->
-                        <!--    <a href="https://www.instagram.com/teslathemes/" target="_blank"> -->
-                        <!--       <i class="icon-instagram"></i> -->
-                        <!--    </a> -->
-                        <!-- </li> -->
-                      </ul>
-
-                      <p class="copyrigts">&copy; 2017 <a href="https://www.ahamlearning.com/" target="_blank">Aham Learning Hub</a></p>
-                    </div>
-                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-      </footer>
-      </section>
+            </section>
+        </div>
+        <!-- Main Footer -->
+        <footer class="main-footer">
+            <section class="section section-about">
+                <h2 class="section-header container align-center">About Aham Learning Hub<span ></span></h2>
+                <div class="container">
+                    <div class="text-box">
+                        <p>Our vision at Aham is “to bring together passionate subject matter experts, 21st century learners, committed team, organized content, innovative teaching strategies and relevant technology to create the world’s best learning hubs where authentic and personalized learning on any subject is experienced”
+                            <p>
+                    </div>
+                </div>
+                <!-- Main Footer Area -->
+                <div class="main-footer-area">
+                    <div class="container">
+                        <div class="text-box">
+                            <p>Visit the links below for more information on Aham</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="social-block-wrapper" style="text-align:center">
+                                    <div class="inner-content">
+                                        <ul class="clean-list social-block">
+                                            <li>
+                                                <a href="https://www.facebook.com/AhamLearning/" target="_blank">
+                                                    <i class="icon-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.ahamlearning.com" target="_blank">
+                                                    <i class="icon-edge"></i>
+                                                </a>
+                                            </li>
+                                            <!-- <li> -->
+                                            <!--    <a href="https://www.instagram.com/teslathemes/" target="_blank"> -->
+                                            <!--       <i class="icon-instagram"></i> -->
+                                            <!--    </a> -->
+                                            <!-- </li> -->
+                                        </ul>
+                                        <p class="copyrigts">&copy; 2017 <a href="https://www.ahamlearning.com/" target="_blank">Aham Learning Hub</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+        </section>
     </div>
-
     <!-- Scripts -->
     <script src="js/vendors/jquery.js"></script>
     <script src="js/vendors/modernizr.js"></script>
@@ -1199,5 +1034,6 @@
     <script src="http://maps.googleapis.com/maps/api/js"></script>
     <script src="js/vendors/infobox.js"></script>
     <script src="js/options.js"></script>
-  </body>
+</body>
+
 </html>
