@@ -1800,7 +1800,7 @@ button:focus {
     width: 100%;
 }
 
-.register-form #input-box .form-input{
+.register-form #input-box .form-input {
     height: 1em;
     resize: none;
 }
@@ -5729,7 +5729,7 @@ button:focus {
     -o-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
     will-change: width, height;
-    background: rgba(230,74,25,0.35);
+    background: rgba(230, 74, 25, 0.35);
     border-radius: 50%;
     position: absolute;
     z-index: 1;
