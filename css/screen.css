@@ -4184,7 +4184,7 @@ button:focus {
 /* ----- Pricing Section ----- */
 
 .section-pricing {
-    background-image: url(../img/pricing-section-bg.jpg);
+    background-image: url(../img/stages.png);
     background-position: center;
     background-size: cover;
 }
